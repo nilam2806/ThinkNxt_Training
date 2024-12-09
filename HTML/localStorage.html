@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function storeLocalStorage(){
+			if (typeof(Storage) != "undefined") {
+	    	    localStorage.setItem("lastname", "peter");
+	    	    alert("Value is stored")
+	    		
+			} else {
+	    		alert("Sorry, your browser does not support Web Storage...");
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<button onclick="storeLocalStorage()">Local Store Value </button>
+
+</body>
+</html>

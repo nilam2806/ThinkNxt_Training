@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<script type="text/javascript">
+			function clickCounter(){
+		    if(typeof(Storage) !== "undefined") {
+		    	alert(sessionStorage.clickcount);
+		        if (sessionStorage.clickcount) {
+		            sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+		            alert("Value is stored second time")
+		        }
+		         else {
+		            sessionStorage.clickcount = 1;
+		            alert("Value is stored first time")
+		        }
+		       
+		    } else {
+		     	alert("Cant use storage ")  
+		    }
+
+		}
+		</script>
+	
+</head>
+<body>
+	<button onclick="clickCounter()"> CLICK Counter 
+	</button>
+</body>
+</html>

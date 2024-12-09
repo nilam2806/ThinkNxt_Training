@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<fieldset>
+	<legend>Onput example</legend>
+	<form oninput="o.value=a.value*b.value"> 
+	<input name="a" value="2" type="number"> x 
+	<input name="b" value="3" type="number"> = 
+	<output name="o">6</output>
+	</form>
+
+
+</fieldset>
+	<fieldset>
+		
+		<legend>Attributes</legend>
+		<form>
+		<input type="text"  pattern="[ a-zA-Z]*">Enter your name only
+		<input type="submit" name="" value="CLICK">
+	</form>
+
+
+
+		<!-- Enter your name<input type="text" name="" placeholder="Enter your name"> -->
+	</fieldset>
+
+
+	<fieldset>
+		<legend>HTML 5 Input types</legend>
+		<table border="1px">
+			<tr>
+				<form>
+				<td>URL <input type="url" name="googlesearch"></td>
+				<td><input type="submit" name="" value="URL"></td>
+			</form>
+			</tr>
+			<tr>
+				<form>
+				<td>Search <input type="search" name="googlesearch"></td>
+				<td><input type="submit" name="" value="search"></td>
+			</form>
+			</tr>
+			<tr>
+				<td>  <input type="week" name="year_week"></td>
+
+			</tr>
+			<tr>
+				<td> Range </td>
+				<td><input type="range" name="points" min="0" max="10">
+
+			</tr>
+
+			<tr>
+				<form>
+				<td>Enter your favorite number</td>
+				<td><input type="number" name=""></td>
+				<td><input type="submit" name="" value="CLICK"></td>
+			</form>
+
+			</tr>
+			<tr>
+				<td>Select your favorite color</td>
+				<td><input type="color" name=""></td>
+			</tr>
+			<tr>
+				<td> Enter your joining date</td>
+				<td><input type="date" name=""></td>
+			</tr>
+			<tr>
+				<td> Enter your joining date and time</td>
+				<td><input type="datetime-local" name=""></td>
+			</tr>
+			<tr>
+				<td> Enter your joining Month</td>
+				<td><input type="month" name=""></td>
+			</tr>
+			<tr>
+				<td>
+					<form action="test.html">
+						Enter your email id 
+						<input type="email" name="">
+						<input type="submit" name="" value="CLICK ME">
+					</form>
+			</td>
+			</tr>
+
+
+		</table>
+	</fieldset>
+
+
+	<fieldset>
+		<legend>HTML 4 Input types</legend>
+
+		<table border="1px" bgcolor="pink">
+			<tr>
+				<td>Enter your name</td>
+				<td><input type="text" name=""></td>
+			</tr>
+			<tr>
+				<td>Enter the password</td>
+				<td><input type="password" name=""></td>
+			</tr>
+			<tr>
+				<td>Select your favorite technolgies</td>
+				<td>
+					<input type="checkbox" name=""> C++
+					<input type="checkbox" name=""> JAVA
+					<input type="checkbox" name=""> Angular
+				</td>
+			</tr>
+			<tr>
+				<td>Enter your gender</td>
+				<td><input type="radio" name="gender"> Male
+					<input type="radio" name="gender"> Female
+				</td>
+			</tr>
+			<tr>
+				<td>Select your location</td>
+				<td>
+					<select>
+						<option value="Pune">Pune</option>
+						<option value="Chennai">Chennai</option>
+						<option value="Bangalore">Bangalore</option>
+						<option value="Delhi">Delhi</option>
+					</select>
+				</tr>
+				<tr>
+					<td>About yourself</td>
+					<td>
+						<textarea height="10" width="5">
+						</textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<td><button> BREAK </button></td>
+				</tr>
+			</table>
+		</fieldset>
+
+		<fieldset>
+			<legend>Data list Examples<legend>
+				<input list="browsers" name="browser">
+
+
+				<datalist id="browsers">
+					<option value="Internet Explorer">
+						<option value="Firefox">
+							<option value="Chrome">
+								<option value="Opera">
+									<option value="Safari">
+									</datalist>
+
+								</fieldset>
+								<fieldset>
+									<legend>Progress Example</legend>
+									<progress value="60" max="100">
+									</fieldset>
+
+									<fieldset>
+										<legend>MEter</legend>
+										8 of 10<meter min="0" max="10" value="8"></meter>
+									</fieldset>
+
+	</body>
+</html>

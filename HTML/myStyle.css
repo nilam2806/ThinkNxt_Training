@@ -1,0 +1,37 @@
+#head1,#head3{
+	background-color: pink;
+	font-style: bold;
+
+}
+#head2,#head4{
+	background-color: blue;
+	font-style: bold;
+
+}
+.d1{
+	word-spacing: 10px;
+	width: 500px;
+	height: 500px;
+	border-style: solid;
+	border-color: black;
+}
+
+
+#head1,#head3{
+	background-color: orange;
+	font-style: bold;
+
+}
+#head2,#head4{
+	background-color: green;
+	font-style: bold;
+
+}
+.d1{
+	word-spacing: 10px;
+	width: 500px;
+	height: 500px;
+	border-style: solid;
+	border-color: black;
+}
+
